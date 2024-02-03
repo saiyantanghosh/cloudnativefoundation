@@ -23,7 +23,7 @@ Below 3 cloud deployment models for delivering cloud services -
 # Cloud Service models 
 What each deployment model is providing.
 
-![](d70dd65e-c070-44e8-87aa-91b3c91b7cd1_1226x1610.webp)
+![](servicemodelmain.PNG)
 [](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)
 
 # What is cloud-native?
@@ -112,28 +112,29 @@ Let's say ubuntu 20.4 -> 22.04 upgrade, two options
       * DevOps is not automation. Even if automation is an essential part of DevOps, automation is not its definition. DevOps is about developers and operators working together from the original idea to production while possibly automating some of their processes, such as continuous delivery.
       * DevOps is not a role. - If we consider DevOps to be a culture or a mindset, it’s hard to make sense of a DevOps role. And yet, there is an increasing request for DevOps engineers. Usually, when recruiters search for DevOps engineers, they are looking for skills like proficiency with automation tools, scripting, and IT systems.
       * DevOps is not a team.- Organizations not fully understanding the preceding points risk keeping the same silos as before, with one change: replacing the Ops silo with a DevOps silo, or, even worse, simply adding a new DevOps silo.
-    # Cloud native computing models
-    Containers (managed by orchestrators) and serverless
-    ## Containers
-    * Virtualization works by leveraging a hypervisor component that abstracts the hardware.making it possible to run multiple operating systems on the same machine in an isolated fashion.
-    * containers enable agility, portability across different environments, and deployment repeatability
-    * hypervisor would run directly on the machine hardware (type 1) or on the host operating system (type 2)
-    * OS container is a lightweight executable package that includes everything needed to run the application.
-    * Containers share the same kernel as the host: there’s no need to bootstrap full operating systems to add new isolated contexts.
-    * On Linux, that is possible by leveraging a couple of features offered by the Linux kernel:
+  # Cloud native computing models
+  Containers (managed by orchestrators) and serverless
+  ## Containers
+  ![](containers.PNG)
+  * Virtualization works by leveraging a hypervisor component that abstracts the hardware.making it possible to run multiple operating systems on the same machine in an isolated fashion.
+  * containers enable agility, portability across different environments, and deployment repeatability
+  * hypervisor would run directly on the machine hardware (type 1) or on the host operating system (type 2)
+  * OS container is a lightweight executable package that includes everything needed to run the application.
+  * Containers share the same kernel as the host: there’s no need to bootstrap full operating systems to add new isolated contexts.
+  * On Linux, that is possible by leveraging a couple of features offered by the Linux kernel:
 
-        **namespaces** for partitioning resources among processes so that each process (or group of processes) can only see a subset of the resources available on the machine
+      **namespaces** for partitioning resources among processes so that each process (or group of processes) can only see a subset of the resources available on the machine
 
-         **cgroups** for controlling and limiting the resource usage for a process (or group of processes)
-      NOTE: When using virtualization only, the hardware is shared. whereas containers also share the same operating system kernel
+       **cgroups** for controlling and limiting the resource usage for a process (or group of processes)
+    NOTE: When using virtualization only, the hardware is shared. whereas containers also share the same operating system kernel
 
-      NOTE : OS container is a method for running one or more processes in an environment isolated from the rest of the system.
+    NOTE : OS container is a method for running one or more processes in an environment isolated from the rest of the system.
 
-    ## Serverless
-      * Serverless applications are typically event-driven and run only when there is an event to handle, such as an HTTP request or a message.
-      * Function as a Service (FaaS) - applications are stateless, triggered by events, and fully managed by the platform
-        vendor platform - AWS Lambda, Azure Functions, or Google Cloud Functions
-        open source platform -  Knative and Apache OpenWhisk
+  ## Serverless
+    * Serverless applications are typically event-driven and run only when there is an event to handle, such as an HTTP request or a message.
+    * Function as a Service (FaaS) - applications are stateless, triggered by events, and fully managed by the platform
+      vendor platform - AWS Lambda, Azure Functions, or Google Cloud Functions
+      open source platform -  Knative and Apache OpenWhisk
 #Architectures for cloud native applications
- 
- 
+
+
