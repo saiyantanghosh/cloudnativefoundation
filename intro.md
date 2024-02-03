@@ -23,6 +23,7 @@ Below 3 cloud deployment models for delivering cloud services -
 # Cloud Service models 
 What each deployment model is providing.
 
+![](d70dd65e-c070-44e8-87aa-91b3c91b7cd1_1226x1610.webp)
 [](https://cloud.google.com/learn/paas-vs-iaas-vs-saas)
 
 # What is cloud-native?
@@ -77,7 +78,9 @@ What each deployment model is providing.
   * element is a configuration
   * Manageability is not only about particular changes themselves but also about how easily and efficiently you can apply those changes. essential to design applications that can adapt to changing requirements regarding functionality, the environment, and security. due to this, we should manage the system through automation.
  NOTE: maintainability - which measures how easily and efficiently you can change a system from the inside by changing its code.
+![](managability.PNG)
 # Cloud native Practices
+![](cnpractice.PNG)
 ## Automation
  * core tenet of cloud-native
  * eliminate manual repetitive tasks and make the system stable and reliable.
