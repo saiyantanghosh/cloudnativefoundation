@@ -136,6 +136,12 @@ Let's say ubuntu 20.4 -> 22.04 upgrade, two options
     * Function as a Service (FaaS) - applications are stateless, triggered by events, and fully managed by the platform
       vendor platform - AWS Lambda, Azure Functions, or Google Cloud Functions
       open source platform -  Knative and Apache OpenWhisk
-#Architectures for cloud native applications
-
+# Architectures for cloud native applications
+![](cnarchelements.PNG)
+* multi-tiered to microservices architectures and beyond
+* cloud native applications and microservices are not the same . microservice is not requirement for cn apps.
+* another architecture style is - Service-based architecture for cloud native applications.two elements of the architecture: services and interactions.
+    1. Service—A component that provides any kind of service to another component.classify them according to whether they store any kind of state, distinguishing between application services (stateless) and data services (stateful). 
+    3. Interaction—The communication of services with each other to accomplish the system’s requirements
+![](cnarchinteraction.PNG)
 
