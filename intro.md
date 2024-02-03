@@ -38,6 +38,7 @@ What each deployment model is providing.
 * Practice - practices around cn apps - DevOps, continuous delivery, and automation
 
 # Cloud native app properties 
+![](cnproperties.PNG)
  ## Scalability
  HS and VS scalability is a prerequisite of elasticity.
  ## Loosely coupling
